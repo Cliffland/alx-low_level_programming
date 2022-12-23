@@ -7,17 +7,18 @@
  */
 int main(void)
 {
-	char low, e, q;
+	int ch;
 
-	e = 'e';
-	q = 'q';
-
-	for (low = 'a'; low <= 'z'; low++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-
-if(low != e && low != q)
-		putchar(low);
+		if (ch != 'e' && ch!= 'q')
+		{
+			putchar(ch);
 		}
-		printf("\n");
+		else
+		{
+		}
+	}
+	putchar('\n');
 	return (0);
 }
