@@ -3,16 +3,20 @@
 #include <time.h>
 /**
  * main - Entry point
+ * Description: prints the alphabets in lowercase/n
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 
-	char low;
+	int ch;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-		printf("\n");
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 
-	return (0);
+return (0);
 }
