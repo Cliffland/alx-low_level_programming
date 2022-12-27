@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - pritns _putchar as a message 
+ * main - pritns _putchar as a message
  *
  * return:always 0 (success)
  */
@@ -11,7 +11,7 @@ int main(void)
 	int count, sz;
 
 	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count ++)
+	for (count = 0; count < sz; count++)
 	{
 		_putchar(str[count]);
 	}
